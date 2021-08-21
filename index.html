@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <main class="mt-4">
+        <section class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <img src="images/mac.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div>
+                    <h2>Customize your Blue 24-inch iMac with Apple M1 chip.</h2>
+                    <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderblolt / USB 4 ports Magic Mouse, Magic Keyboard - US English</p>
+                    </div>
+                    <!-- memory section starts here -->
+                    <div>
+                        <h2>Memory</h2>
+                        <div class="mt-2">
+                                <button id="normal-memory-cost" class="btn-outline-dark">8GB unified memory</button>
+                                <button id="extra-memory-cost" class="btn-outline-dark">16GB unified memory</button>
+                        </div>
+                    </div>
+                    <!-- memory section ends here -->
+                    <!-- storage section starts here -->
+                    <div class="my-4">
+                        <h2>Storage</h2>
+                        <div class="mt-2">
+                                <button id="storage-option-1" class="btn-outline-dark">256GB SSD storage</button>
+                                <button id="storage-option-2" class="btn-outline-dark">512GB SSD storage</button>
+                                <button id="storage-option-3" class="btn-outline-dark">1TB SSD storage</button>
+                        </div>
+                    </div>
+                    <!-- storage section ends here -->
+                    <!-- delivery option starts here -->
+                    <div class="my-4">
+                        <h2>Choose your delivery option</h2>
+                        <div class="mt-2">
+                            <button id="without-delivery-cost" class="btn-outline-dark">Friday, Aug 25 FREE Prime Delivery</button>
+                            <button id="with-delivery-cost" class="btn-outline-dark">Friday, Aug 21 Delivery Charge $20</button>  
+                        </div>
+                    </div>
+                    <!-- delivery option starts here -->
+                    <div>
+                        <h4>Best Price $<span>1299</span></strong></h4>
+                        <hr>
+                        <h4>Extra Memory Cost $<span id="update-memory-cost">0</span></h4>
+                        <hr>
+                        <h4>Extra Storage Cost $<span id="update-storage-cost">0</span></h4>
+                        <hr>
+                        <h4>Delivery Charge $<span id="update-delivery-cost">0</span></h4>
+                        <hr>
+                        <h4>Total Price $<sapn id="update-total-price">1299</sapn></h4>
+                    </div>
+                    <div class="my-4">
+                        <h3>Add promo code</h3>
+                        <input id="promo-field" type="text" name="" id="">
+                        <button id="promo-btn" class="btn btn-success">Apply</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="myBorder">
+            <h1 class="text-center mb-4">Total $<span id="total">1299</span></h1>
+        </section>
+    </main>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script src="index.js"></script>
+</body>
+</html>
