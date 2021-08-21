@@ -32,8 +32,8 @@ function totalPrice(){
     const totalDeliveryCost = document.getElementById('update-delivery-cost')
     const totalDeliveryCostAmount = totalDeliveryCost.innerText;
     const totalCost = bestPrice + parseInt(totalMemoryCostAmount) + parseInt(totalStorageCostAmount) + parseInt(totalDeliveryCostAmount);
-    document.getElementById('total').innerText = totalCost;
     document.getElementById('update-total-price').innerText = totalCost;
+    document.getElementById('total').innerText = totalCost;
     return totalCost;
 }
 // update memorycost
