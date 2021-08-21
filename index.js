@@ -22,7 +22,6 @@ function updateDeliveryCost(isFree){
         const deliveryCostAmount = 20;
         deliveryCost.innerText = deliveryCostAmount;
     }
-    
 }
 function totalPrice(){
     const bestPrice  = 1299;
@@ -36,7 +35,6 @@ function totalPrice(){
     document.getElementById('total').innerText = totalCost;
     document.getElementById('update-total-price').innerText = totalCost;
     return totalCost;
-    
 }
 // update memorycost
 document.getElementById('normal-memory-cost').addEventListener('click', function(){
@@ -75,6 +73,7 @@ document.getElementById('with-delivery-cost').addEventListener('click', function
     updateDeliveryCost(false)
     totalPrice();
 });
+// add promo code
 document.getElementById('promo-btn').addEventListener('click', function(){
     const promoField = document.getElementById('promo-field');
     const promoFieldText = promoField.value;
